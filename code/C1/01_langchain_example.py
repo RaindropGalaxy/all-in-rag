@@ -20,7 +20,7 @@ from langchain_openai import ChatOpenAI
 # 加载.env文件（如果存在），同时设置兜底值避免Key为空
 load_dotenv()
 # 优先从环境变量取Key，没有则用你验证过的有效Key（临时兜底）
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-fa31788ff2c04e6d82916d9b28d94f87")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "[你的API]")
 
 markdown_path = "../../data/C1/markdown/easy-rl-chapter1.md"
 
