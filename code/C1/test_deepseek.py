@@ -8,7 +8,7 @@ sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='ignor
 
 # 2. 配置 DeepSeek 客户端（替换成你的真实 Key）
 client = OpenAI(
-    api_key="sk-fa31788ff2c04e6d82916d9b28d94f87",  # 你的完整 Key（带 sk- 前缀）
+    api_key="[你的API key]",  # 你的完整 Key
     base_url="https://api.deepseek.com/v1"
 )
 
